@@ -4,10 +4,16 @@ const FULL_HEART = '♥'
 
 // Your JavaScript code goes here!
 
-const sinon = require( 'sinon' );
-const helpers = require( './helpers' );
-const chai = require( 'chai' );
-const spies = require( 'chai-spies' );
+
+let glyphStates = {
+  "♡": "♥",
+  "♥": "♡"
+};
+
+let colorStates = {
+  "red" : "",
+  "": "red"
+};
 
 
 //------------------------------------------------------------------------------
