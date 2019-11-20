@@ -16,12 +16,12 @@ let colorStates = {
 };
 let articleHearts = document.querySelectorAll(".like");
 
-// 
-// 
+//
+//
 // for (let glyph of articleHearts) {
 //   glyph.addEventListener("click", likeCallback);
 // }
-// 
+//
 // function likeCallback(e) {
 //   let heart = e.target;
 //   mimicServerCall("bogusUrl")
